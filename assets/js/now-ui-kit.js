@@ -41,7 +41,7 @@ $document.ready(function(){
         nowuiKit.initRightMenu();
     }
 
-    if ($window.width() >= 992){
+    if ($window.width() >= 992 && !$('body').is('.no-flex')){
         big_image = $('.page-header-image[data-parallax="true"]');
         $window.on('scroll', nowuiKitUtils.checkScrollForParallax);
     }

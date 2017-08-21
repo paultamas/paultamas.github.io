@@ -1,3 +1,6 @@
+.no-flex .row {
+    display: table !important;
+}
 .tim-row{
     margin-bottom: 20px;
 }
