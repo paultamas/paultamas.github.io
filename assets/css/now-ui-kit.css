@@ -1154,9 +1154,9 @@ body {
   font-size: 0.7142em;
   padding: 0.5rem 0.7rem;
   line-height: 1.625rem; }
-.navbar .navbar-nav .nav-link i.fa + p, .navbar .navbar-nav .nav-link i.now-ui-icons + p {
+.navbar .navbar-nav .nav-link i.fa + p, .navbar .navbar-nav .nav-link i.fab + p, .navbar .navbar-nav .nav-link i.now-ui-icons + p {
   margin-left: 5px; }
-.navbar .navbar-nav .nav-link i.fa, .navbar .navbar-nav .nav-link i.now-ui-icons {
+.navbar .navbar-nav .nav-link i.fa, .navbar .navbar-nav .nav-link i.fab,.navbar .navbar-nav .nav-link i.now-ui-icons {
   font-size: 18px;
   position: relative;
   top: 2px;
@@ -3032,7 +3032,7 @@ Created using IcoMoon - icomoon.io
   .section-nucleo-icons .icons-container {
     margin-top: 65px; }
 
-  .navbar-nav .nav-link i.fa, .navbar-nav .nav-link i.now-ui-icons {
+  .navbar-nav .nav-link i.fa,.navbar-nav .nav-link i.fab, .navbar-nav .nav-link i.now-ui-icons {
     opacity: .5; }
 
   .section-images {
